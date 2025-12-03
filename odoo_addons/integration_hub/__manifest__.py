@@ -17,3 +17,9 @@
     'auto_install': False,
     'license': 'LGPL-3',
 }
+    'data': [
+        # 将事件模型添加到清单中
+    ],
+    'data': [
+        # 将事件模型添加到清单中
+    ],

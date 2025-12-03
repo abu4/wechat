@@ -1,0 +1,1 @@
+已设计 payment.required 事件数据结构，定义于 integration_hub/models/payment_event.py
