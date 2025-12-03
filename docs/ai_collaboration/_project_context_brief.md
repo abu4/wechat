@@ -7,8 +7,8 @@
 
 ## 核心聚焦任务
 1.  ~~定义并实现`integration_hub`中的基础事件（如`sale.order.confirmed`, `payment.required`）。~~ ✅ 已完成
-2.  **进行中**：完成`domain_payment`中`PaymentTransaction`核心模型与状态机的草稿设计。
-3.  制定首个支付适配器(`adapter_payment_wechat`)与领域层的接口契约。
+2.  **已完成**：完成`domain_payment`中`PaymentTransaction`核心模型与状态机的草稿设计。✅ 已完成
+3.  **已启动**制定首个支付适配器(`adapter_payment_wechat`)与领域层的接口契约。
 
 ## 最近关键决策 (ADR)
 1.  **ADR-001：采用“集成总线+适配器”架构**：所有集成通过事件驱动，禁止直接修改Odoo核心模块。
